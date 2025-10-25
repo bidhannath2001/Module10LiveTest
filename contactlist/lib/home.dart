@@ -79,7 +79,7 @@ class ContactList extends StatelessWidget {
               ),
               Expanded(
                 child: ListView.builder(
-                  itemCount: 5,
+                  itemCount: Names.length,
                   itemBuilder: (context, index) {
                     return Card(
                       child: ListTile(
